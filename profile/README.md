@@ -28,6 +28,16 @@ Firstlight is currently a release candidate. Physical-device screen-reader check
 
 Start with the [installation guide](https://firstlightui.dev/docs/getting-started/installation) or explore the [list and detail recipe](https://firstlightui.dev/docs/how-to/build-a-list-detail-flow).
 
+## Plugins
+
+NativePHP Mobile plugins for what the phone can do and NativePHP doesn't expose yet. Each one is free and MIT licensed, and works with or without Firstlight's controls. See them all on the [plugins page](https://firstlightui.dev/plugins).
+
+| Plugin | Status | What it does |
+| --- | --- | --- |
+| [App Guard](https://github.com/firstlightui/app-guard) | Available | An app lock: hide the app in the app switcher, cover it when it returns after a timeout, keep protected screens closed, and copy secrets to a clipboard that clears itself. Start with the [app lock recipe](https://firstlightui.dev/docs/how-to/build-an-app-lock-screen). |
+| [Local OCR](https://github.com/firstlightui/local-ocr) | Coming soon | Multi-page document capture and on-device text recognition: VisionKit and Apple Vision on iOS, ML Kit on Android. |
+| [Local AI](https://github.com/firstlightui/local-ai) | Coming soon | Text generation with the phone's built-in model: Apple Foundation Models on iOS, Gemini Nano on Android. Prompts and output never leave the device. |
+
 ## Built on NativePHP
 
 Firstlight builds on the SuperNative foundation created by [Shane Rosenthal](https://github.com/shanerbaner82) and [Simon Hamp](https://github.com/simonhamp). NativePHP provides navigation chrome and Mobile UI provides layout; Firstlight supplies controls and Laravel screen behaviour within them, keeping each platform's own presentation.
